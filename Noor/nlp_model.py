@@ -1,8 +1,10 @@
 import multiprocessing
 import gensim
-from gensim.models import Phrases, Word2Vec
+from gensim.models import Phrases, Word2Vec, fasttext
 from gensim.models.phrases import Phraser
 from gensim.similarities import WmdSimilarity
+from gensim.test.utils import datapath
+
 from Noor import data_handler
 
 
@@ -32,10 +34,13 @@ def train_word2vec_bigram(word_statements, name='word2vec_fa_model'):
     return w2v_model
 
 
-# load_pre_trained_model('../data/cc.fa.300.vec')
+# model = load_pre_trained_model('../data/cc.fa.300.vec')
+# path = datapath('../data/fa.bin')
+model = fasttext.FastText.load_fasttext_format('../data/fa.bin')
+print("DONE")
 medical_questions = data_handler.load_dataset("../data/data_all.pickle")
 medical_questions_words = data_handler.dataset_cleaner(medical_questions)
-model = gensim.models.KeyedVectors.load("fa_model")
+# model = gensim.models.KeyedVectors.load("fa_model")
 instance = WmdSimilarity(medical_questions_words, model, num_best=10)
 
 user_question = ['آیا برای عمل لیزیک باید ناشتا بود؟',
