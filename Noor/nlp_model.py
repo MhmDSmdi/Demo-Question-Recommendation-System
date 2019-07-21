@@ -1,16 +1,19 @@
 import multiprocessing
 import gensim
-from gensim.models import Phrases, Word2Vec, fasttext
+
+from gensim.models import Phrases, Word2Vec, FastText
 from gensim.models.phrases import Phraser
 from gensim.similarities import WmdSimilarity
 from gensim.test.utils import datapath
+from gensim.test.utils import common_texts
 
 from Noor import data_handler
 
 
 def load_pre_trained_model(file_name, encoding='utf-8'):
-    model = gensim.models.KeyedVectors.load_word2vec_format(file_name, encoding)
-    model.save('fasttext_fa_model')
+    # model = gensim.models.KeyedVectors.load_word2vec_format(file_name)
+    model = FastText.load_fasttext_format(file_name)
+    # model.save('fasttext_fa_model')
     return model
 
 
@@ -29,18 +32,29 @@ def train_word2vec_bigram(word_statements, name='word2vec_fa_model'):
                          workers=num_cores - 1)
     w2v_model.build_vocab(sentences, progress_per=10000)
     w2v_model.train(sentences, total_examples=w2v_model.corpus_count, epochs=30, report_delay=1)
-    model.save(name)
+    w2v_model.save(name)
     w2v_model.init_sims(replace=True)
     return w2v_model
 
 
+def progbar(curr, full_progbar):
+    frac = curr / full_progbar
+    filled_progbar = round(frac * full_progbar)
+    print('\r', '#' * filled_progbar + '-' * (full_progbar - filled_progbar), '[{:>7.2%}]'.format(frac), end='')
+
+
+progbar(0, 100)
+model = load_pre_trained_model('../data/fa.bin')
 # model = load_pre_trained_model('../data/cc.fa.300.vec')
-# path = datapath('../data/fa.bin')
-model = fasttext.FastText.load_fasttext_format('../data/fa.bin')
-print("DONE")
+progbar(45, 100)
+
 medical_questions = data_handler.load_dataset("../data/data_all.pickle")
 medical_questions_words = data_handler.dataset_cleaner(medical_questions)
-# model = gensim.models.KeyedVectors.load("fa_model")
+progbar(55, 100)
+
+# model.build_vocab(medical_questions_words, update=True)
+model.train(common_texts, total_examples=len(model.corpus_count), epochs=model.epochs)
+progbar(70, 100)
 instance = WmdSimilarity(medical_questions_words, model, num_best=10)
 
 user_question = ['آیا برای عمل لیزیک باید ناشتا بود؟',
@@ -55,3 +69,5 @@ for i in range(len(user_question)):
     for j in range(10):
         print(medical_questions[sims[j][0]] + "("+'sim = %.4f' % sims[j][1]+")")
     print()
+    progbar(i * 5 + 75, 100)
+progbar(100, 100)

@@ -4,7 +4,9 @@
       <w>bigram</w>
       <w>dataset</w>
       <w>fasttext</w>
+      <w>frac</w>
       <w>lemmatizer</w>
+      <w>progbar</w>
     </words>
   </dictionary>
 </component>

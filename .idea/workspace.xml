@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eba893a-a0f3-4658-823b-fa210a82c472" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject/data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject/data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject/simpsons_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject/tweets_all.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mhmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mhmd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Noor/nlp_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noor/nlp_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noor/output/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Noor/output/output1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
     <SUITE FILE_PATH="coverage/NLP$noor.coverage" NAME="noor Coverage Results" MODIFIED="1563641050249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP$kaggle.coverage" NAME="kaggle Coverage Results" MODIFIED="1562315851321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP$fasttext.coverage" NAME="fasttext Coverage Results" MODIFIED="1562316564010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP$nlp_model.coverage" NAME="nlp_model Coverage Results" MODIFIED="1563691056926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Noor" />
+    <SUITE FILE_PATH="coverage/NLP$nlp_model.coverage" NAME="nlp_model Coverage Results" MODIFIED="1563698697777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Noor" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -57,15 +60,15 @@
           <entry key="csv" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="output1" value="1" />
-          <entry key="py" value="44" />
-          <entry key="txt" value="18" />
+          <entry key="py" value="53" />
+          <entry key="txt" value="20" />
           <entry key="vec" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="44" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,39 +76,30 @@
           <entry key="Python Console" value="55" />
           <entry key="dummy" value="19" />
           <entry key="gitignore" value="6" />
-          <entry key="py" value="4463" />
+          <entry key="py" value="4736" />
           <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="111" />
-          <entry key="Python" value="4518" />
+          <entry key="Python" value="4791" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Noor/nlp_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="324">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1563691040461" expanded="true" signature="307:308" ph="..." />
-                <marker date="1563691040461" expanded="true" signature="1247:1248" ph="..." />
+                <marker date="1563698432461" expanded="true" signature="351:352" ph="..." />
+                <marker date="1563698432461" expanded="true" signature="1342:1343" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Noor/output/output1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Noor/data_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="378">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -152,9 +146,9 @@
         <option value="$PROJECT_DIR$/Noor/noor.py" />
         <option value="$PROJECT_DIR$/Noor/data_handler.py" />
         <option value="$PROJECT_DIR$/Noor/output/output1" />
-        <option value="$PROJECT_DIR$/Noor/nlp_model.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Noor/output/output1.txt" />
+        <option value="$PROJECT_DIR$/Noor/nlp_model.py" />
       </list>
     </option>
   </component>
@@ -225,13 +219,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2642857" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestProject" />
       <recent name="$PROJECT_DIR$/Noor" />
       <recent name="$PROJECT_DIR$/data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,12 +394,12 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12700106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.84497815" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41157204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,8 +414,31 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42030567" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.390507" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" weight="0.39082968" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32901832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32977587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -437,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/simpsons_dataset.csv">
+    <entry file="file://$PROJECT_DIR$/TestProject/simpsons_dataset.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/spacy/util.py">
@@ -447,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data2.txt">
+    <entry file="file://$PROJECT_DIR$/TestProject/data2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="23" />
@@ -461,11 +478,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/tweets_all.txt">
+    <entry file="file://$PROJECT_DIR$/TestProject/tweets_all.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fasttext.py" />
-    <entry file="file://$PROJECT_DIR$/data/data1.txt">
+    <entry file="file://$PROJECT_DIR$/TestProject/data1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="247" column="52" selection-start-line="247" selection-start-column="46" selection-end-line="247" selection-end-column="52" />
@@ -483,20 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="736" selection-start-line="736" selection-end-line="736" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1421" selection-start-line="1421" selection-end-line="1421" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/models/keyedvectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
         </state>
       </provider>
     </entry>
@@ -574,23 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noor/data_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/models/fasttext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="712" column="8" selection-start-line="712" selection-start-column="8" selection-end-line="712" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -598,15 +584,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noor/nlp_model.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1563691040461" expanded="true" signature="307:308" ph="..." />
-            <marker date="1563691040461" expanded="true" signature="1247:1248" ph="..." />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="651" column="8" selection-start-line="651" selection-start-column="8" selection-end-line="651" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/models/keyedvectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="1478" selection-start-line="1478" selection-end-line="1478" />
         </state>
       </provider>
     </entry>
@@ -614,6 +602,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/models/base_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1025" column="8" selection-start-line="1025" selection-start-column="8" selection-end-line="1025" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/models/fasttext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="662" column="33" selection-start-line="662" selection-start-column="33" selection-end-line="662" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/gensim/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#132#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noor/data_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noor/nlp_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1563698432461" expanded="true" signature="351:352" ph="..." />
+            <marker date="1563698432461" expanded="true" signature="1342:1343" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
